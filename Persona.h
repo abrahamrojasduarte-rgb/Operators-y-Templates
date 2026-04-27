@@ -47,7 +47,7 @@ public:
     }
 
     bool operator==(const Persona& otra) const {
-        return edad == otra.edad;
+        return  edad == otra.edad;
     }
 
 

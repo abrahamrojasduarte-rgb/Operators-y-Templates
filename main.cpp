@@ -17,7 +17,7 @@ int main() {
         p1.mostrar();
     }
 
-    Persona mayor=maximo(p1,p2);
+    Persona mayor=maximo (p1,p2);
     mayor.mostrar();
     return 0;
 }
