@@ -39,15 +39,15 @@ public:
     }
 
     bool operator>(const Persona& otra) const {
-        return edad > otra.edad &&  peso > otra.peso;
+        return edad > otra.edad ;
     }
 
     bool operator<(const Persona& otra) const {
-        return edad < otra.edad &&  peso <  otra.peso;
+        return edad < otra.edad ;
     }
 
     bool operator==(const Persona& otra) const {
-        return nombre == otra.nombre && edad == otra.edad;
+        return edad == otra.edad;
     }
 
 
